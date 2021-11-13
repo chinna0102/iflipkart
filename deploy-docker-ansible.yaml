@@ -4,7 +4,7 @@
   tasks:
       - name: start the container
         docker_container:
-          name: hariapp
+          name: cicd
           image: "chinna0102/cicd"
           state: started
           published_ports:
